@@ -1,6 +1,7 @@
 # Apoolminer
 
-$$$$$$\  $$$$$$$\   $$$$$$\   $$$$$$\  $$\       
+```powershell
+ $$$$$$\  $$$$$$$\   $$$$$$\   $$$$$$\  $$\       
 $$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ $$ |      
 $$ /  $$ |$$ |  $$ |$$ /  $$ |$$ /  $$ |$$ |      
 $$$$$$$$ |$$$$$$$  |$$ |  $$ |$$ |  $$ |$$ |      
@@ -8,13 +9,14 @@ $$  __$$ |$$  ____/ $$ |  $$ |$$ |  $$ |$$ |
 $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |      
 $$ |  $$ |$$ |       $$$$$$  | $$$$$$  |$$$$$$$$\ 
 \__|  \__|\__|       \______/  \______/ \________|
+```
  ## Introduction
 
 GPU optimization Miner for Aleo
 
 ## Disclaimer
 
-[apool.io](https://www.apool.io/) & [apoolminer_github](https://github.com/apool-io/apoolminer) are the only 2 officially maintained site for publishing information and new releases of damominer.
+[apool.io](https://www.apool.io/) & [apoolminer_github](https://github.com/apool-io/apoolminer) are the only 2 officially maintained site for publishing information and new releases of apoolminer.
 
 ## Install
 
@@ -32,7 +34,7 @@ If you didn't have an aleo account, use the following command to create one:
 
 Then start miner like:
 
-./damominer --address &lt;your address> --proxy &lt;solo prover proxy> [OPTIONS]
+./apoolminer --address &lt;your address> --proxy &lt;solo prover proxy> [OPTIONS]
  Options:
       --account &lt;ACCOUNT>    Specify the account
       --worker &lt;WORKER>    Specify the worker name. Note: The name consists of numbers and letters and cannot exceed 15 characters in length
@@ -89,7 +91,7 @@ Response:
 }
 Usage:
 
-./damominer --address &lt;your address> --rest --port 5001 --proxy &lt;solo prover proxy> [OPTIONS]
+./apoolminer --address &lt;your address> --rest --port 5001 --proxy &lt;solo prover proxy> [OPTIONS]
  ## Changelog
 
 ### 1.1.0
@@ -152,7 +154,7 @@ Improved 3080 GPU vRam overload problem. For 10G vRam, we highly recommend you t
 
 ### 2.3.4
 
-Decrease the CPU requirements, some ETH mining machine can run Damominer directly<br>
+Decrease the CPU requirements, some ETH mining machine can run Apoolminer directly<br>
 Improve the 3060Ti, 3080 GPU performance and pcie 1x problems
 
 ### 2.3.5
