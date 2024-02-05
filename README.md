@@ -10,7 +10,8 @@ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |
 $$ |  $$ |$$ |       $$$$$$  | $$$$$$  |$$$$$$$$\ 
 \__|  \__|\__|       \______/  \______/ \________|
 ```
- ## Introduction
+
+## Introduction
 
 GPU optimization Miner for Aleo
 
@@ -20,56 +21,70 @@ GPU optimization Miner for Aleo
 
 ## Install
 
-Running command below under root user:
+Running command below under `root` user:
 
-wget [https://raw.githubusercontent.com/apoolmine/apoolminer/main/apool.sh] && chmod +x apoolminer.sh
+```powershell
+wget https://raw.githubusercontent.com/apoolmine/apoolminer/main/apool.sh && chmod +x apoolminer.sh
 ./apoolminer.sh
- The miner will be installed to /.apoolminer/apoolminer.
+```
+
+The miner will be installed to `/.apoolminer/apoolminer`.
 
 ## Usage
 
-Please refer to the usage help (./apoolminer --help):
+Please refer to the usage help (`./apoolminer --help`):
 
 If you didn't have an aleo account, use the following command to create one:
 
 Then start miner like:
 
-./apoolminer --address &lt;your address> --proxy &lt;solo prover proxy> [OPTIONS]
- Options:
-      --account &lt;ACCOUNT>    Specify the account
-      --worker &lt;WORKER>    Specify the worker name. Note: The name consists of numbers and letters and cannot exceed 15 characters in length
-      --pool &lt;POOL>          Specify the pool server address
-  -g, --gpu &lt;GPU>          Specify the index of GPU. Specify multiple times to use multiple GPUs, example: -g 0 -g 1 -g 2. Note: Use all gpus if not specify.
-  -o, --log &lt;LOG>          Specify the log file
- ## GPU supports
+```powershell
+./apoolminer --address <your address> --proxy <solo prover proxy> [OPTIONS] 
+```
 
-- NVIDIA Turing GPU
-- NVIDIA Ampere GPU
+```powershell
+Options:
+      --account <ACCOUNT>    Specify the account
+      --worker <WORKER>    Specify the worker name. Note: The name consists of numbers and letters and cannot exceed 15 characters in length
+      --pool <POOL>          Specify the pool server address
+  -g, --gpu <GPU>          Specify the index of GPU. Specify multiple times to use multiple GPUs, example: -g 0 -g 1 -g 2. Note: Use all gpus if not specify.
+  -o, --log <LOG>          Specify the log file
+```
+
+## GPU supports
+
+- NVIDIA Turing GPU (RTX20)
+- NVIDIA Ampere GPU (RTX30)
+- NVIDIA Ada Lovelace GPU (RTX40)
 
 ## API Reference
 
-### miner status
+### miner status 
 
-Path： /status
+**Path：** /status
 
-Method： GET
+**Method：** GET
 
-Response:
+**Response:**
 
+```
 {
   "code": 200,
   "data": {
     "online": false
   }
 }
-### gpu miner info
+```
 
-Path： /gpu
+### gpu miner info 
 
-Method： GET
+**Path：** /gpu
 
-Response:
+**Method：** GET
 
+**Response:**
+
+```
 {
 "code": 200,
 "data": {
@@ -89,14 +104,19 @@ Response:
     }],
     "uptime": 197 //program up time 
 }
-Usage:
+```
 
-./apoolminer --address &lt;your address> --rest --port 5001 --proxy &lt;solo prover proxy> [OPTIONS]
- ## Changelog
+**Usage:**
+
+```powershell
+./apoolminer --address <your address> --rest --port 5001 --proxy <solo prover proxy> [OPTIONS]    
+```
+
+## Changelog
 
 ### 1.1.0
 
-support for aleo testnet3 phase2.
+support for aleo testnet3 phase2.   
 
 ### 1.2.0
 
@@ -154,7 +174,7 @@ Improved 3080 GPU vRam overload problem. For 10G vRam, we highly recommend you t
 
 ### 2.3.4
 
-Decrease the CPU requirements, some ETH mining machine can run Apoolminer directly<br>
+Decrease the CPU requirements, some ETH mining machine can run apoolminer directly<br>
 Improve the 3060Ti, 3080 GPU performance and pcie 1x problems
 
 ### 2.3.5
