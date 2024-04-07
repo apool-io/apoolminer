@@ -113,3 +113,5 @@ Options:
 ```
 
 ## Changelog
+### 0.6.0
+Version for running Aleo testnet3.  
