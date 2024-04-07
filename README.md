@@ -115,3 +115,6 @@ Options:
 ## Changelog
 ### 0.6.0
 Version for running Aleo testnet3.  
+### 1.1.0
+Version for running Qubic, it is only for CPU now.
+
