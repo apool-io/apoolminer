@@ -13,7 +13,7 @@ $$ |  $$ |$$ |       $$$$$$  | $$$$$$  |$$$$$$$$\
 
 ## Introduction
 
-GPU optimization Miner for Aleo
+GPU optimization Miner for Aleo Qubic
 
 ## Disclaimer
 
