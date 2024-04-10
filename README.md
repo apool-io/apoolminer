@@ -13,7 +13,7 @@ $$ |  $$ |$$ |       $$$$$$  | $$$$$$  |$$$$$$$$\
 
 ## Introduction
 
-GPU optimization Miner for Aleo & Qubic
+GPU optimization Miner for Aleo & Qubic.
 
 ## Disclaimer
 
@@ -118,4 +118,4 @@ Version for running Aleo testnet3.
 ### 1.1.0
 Version for running Qubic, it is only for CPU now.
 ### 1.2.1
-qubic Epoch 104, support for cpu and gpu
+qubic Epoch 104, support for cpu and gpu.
