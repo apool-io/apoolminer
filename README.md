@@ -117,4 +117,5 @@ Options:
 Version for running Aleo testnet3.  
 ### 1.1.0
 Version for running Qubic, it is only for CPU now.
-
+### 1.2.1
+qubic Epoch 104, support for cpu and gpu
