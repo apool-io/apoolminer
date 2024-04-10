@@ -114,8 +114,9 @@ Options:
 
 ## Changelog
 ### 0.6.0
-Version for running Aleo testnet3.  
+1. Version for running Aleo testnet3.  
 ### 1.1.0
-Version for running Qubic, it is only for CPU now.
+1. Version for running Qubic, it is only for CPU now.
 ### 1.2.1
-qubic Epoch 104, support for cpu and gpu.
+1. Qubic Epoch 104, support for CPU and NVIDIA GPU.
+2. Support Windows10 and Ubuntu18.04-22.04.
