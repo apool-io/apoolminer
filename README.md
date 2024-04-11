@@ -13,7 +13,7 @@ $$ |  $$ |$$ |       $$$$$$  | $$$$$$  |$$$$$$$$\
 
 ## Introduction
 
-GPU optimization Miner for Aleo & Qubic.
+The best Optimization Miner for Aleo & Qubic.
 
 ## Disclaimer
 
@@ -21,36 +21,42 @@ GPU optimization Miner for Aleo & Qubic.
 
 ## Install
 
-Running command below under `root` user:
+Alawys get the lastest version from the [releases](https://github.com/apool-io/apoolminer/releases)
 
-```powershell
-wget https://raw.githubusercontent.com/apoolmine/apoolminer/main/apool.sh && chmod +x apoolminer.sh
-./apoolminer.sh
-```
+and then extract the file
 
-The miner will be installed to `/.apoolminer/apoolminer`.
 
 ## Usage
 
 Please refer to the usage help (`./apoolminer --help`):
 
-If you didn't have an aleo account, use the following command to create one:
+If you didn't have an apool account, Head over to [Apool Website](https://www.apool.io) to finish email registration, and Copy the sub-account from [myminer page](https://www.apool.io/myMiner).
 
 Then start miner like:
 
 ```powershell
-./apoolminer --address <your address> --proxy <solo prover proxy> [OPTIONS] 
+./apoolminer --algo qubic --account <your sub-account> --pool <aleo/qubic proxy> [OPTIONS] 
 ```
 
 ```powershell
 Options:
-      --account <ACCOUNT>    Specify the account
-      --worker <WORKER>    Specify the worker name. Note: The name consists of numbers and letters and cannot exceed 15 characters in length
-      --pool <POOL>          Specify the pool server address
-  -g, --gpu <GPU>          Specify the index of GPU. Specify multiple times to use multiple GPUs, example: -g 0 -g 1 -g 2. Note: Use all gpus if not specify.
+      --algo <ALGORITHM>     Specify algorithm, default: qubic
+      --account <ACCOUNT>    Specify the sub-account, copy from myminer page
+      --worker <WORKER>     Specify the worker name. miner use the machine ip default,
+                            Note: The name consists of numbers and letters and cannot exceed 15 characters in length
+      --pool <POOL>         Specify the pool proxy for the mining coin, eg. qubic1.hk.apool.io:3334 for qubic
+      --cpu-off             Close CPU mining
+      --gpu-off             Close GPU mining
+
+  -g, --gpu <GPU>           Specify the index of GPU. Specify multiple times to use multiple GPUs, example: -g 0 -g 1 -g 2. Note: Use all gpus if not specify.
+  -t, --thread <T>          Specify the number of CPU thread [default: 0]
   -o, --log <LOG>          Specify the log file
 ```
 
+## CPU supports
+
+- Intel/AMD CPUs support AVX2
+  
 ## GPU supports
 
 - NVIDIA Turing GPU (RTX20)
@@ -109,7 +115,7 @@ Options:
 **Usage:**
 
 ```powershell
-./apoolminer --account <your account> --rest --port 5001 --pool <pool server address> [OPTIONS]    
+./apoolminer --algo qubic --account <your sub-account> --rest --port 5001 --pool <coin proxy> [OPTIONS]    
 ```
 
 ## Changelog
