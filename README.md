@@ -126,3 +126,6 @@ Options:
 ### 1.2.1
 1. Qubic Epoch 104, support for CPU and NVIDIA GPU.
 2. Support Windows10 and Ubuntu18.04-22.04.
+### 1.2.3
+1. Fix some bug. 
+2. Optimal performance.
