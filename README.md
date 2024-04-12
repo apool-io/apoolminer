@@ -129,5 +129,5 @@ Options:
 ### 1.2.3
 1. Fix some bug. 
 2. Optimal performance.
-## 1.2.4
+### 1.2.4
 1.Fixed some machine anomalies.
