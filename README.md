@@ -82,13 +82,15 @@ Options:
 }
 ```
 
-### gpu miner info 
+### miner info 
+
+The /gpu API will return all computor devices, including cpu.
 
 **Path：** /gpu
 
 **Method：** GET
 
-**Response:**
+**Response:**  
 
 ```
 {
