@@ -131,5 +131,6 @@ Options:
 2. Optimal performance.
 ### 1.2.4
 1. Fixed some machine anomalies.
-### 1.2.5
-1. Optimal performance.
+### 1.2.6
+1. Fix one bug which may generate invalid share
+2. GPU performance +12%
