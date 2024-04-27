@@ -135,6 +135,8 @@ The /gpu API will return all devices, including cpu.
 1. Fixed some machine anomalies.
 ### 1.2.6
 1. Fix one bug which may generate invalid share.
-2. GPU performance +12%
+2. GPU performance +12% .
 ### 1.2.7
 1. GPU optimal performance, support CPU without avx2.
+### 1.2.8
+1. CPU and GPU optimal performance.
