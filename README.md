@@ -140,3 +140,6 @@ The /gpu API will return all devices, including cpu.
 1. GPU optimal performance, support CPU without avx2.
 ### 1.2.8
 1. CPU and GPU performance optimization.
+### 1.2.9
+1. Some GPU models performance optimized by 10%-20%.
+2. Fix the issue of low computing power of the 4090 gpu cards.
