@@ -143,3 +143,5 @@ The /gpu API will return all devices, including cpu.
 ### 1.2.9
 1. Some GPU models performance optimized by 10%-20%.
 2. Fix the issue of low computing power of the 4090 GPU cards.
+### 1.3.0
+1. Qubic epoch 107
