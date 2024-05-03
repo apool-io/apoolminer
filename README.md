@@ -147,3 +147,7 @@ The /gpu API will return all devices, including cpu.
 1. Qubic epoch 107.
 ### 1.3.1
 1. Fixed some machine anomalies.
+### 1.3.2
+1. GPU performance improved by 10%.
+2. Support automatic upgrade in Linux (Tutorial available on the official website).
+3. Some bugs have been fixed.
