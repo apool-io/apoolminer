@@ -151,3 +151,7 @@ The /gpu API will return all devices, including cpu.
 1. GPU performance improved by 10%.
 2. Support automatic upgrade in Linux (Tutorial available on the official website).
 3. Some bugs have been fixed.
+### 1.4.0
+1. Qubic epoch 109.
+2. HiveOS has been upgraded to an automatically updated version.
+3. Windows has been upgraded to an automatically updated version.
