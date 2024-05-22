@@ -155,3 +155,5 @@ The /gpu API will return all devices, including cpu.
 1. Qubic epoch 109.
 2. HiveOS has been upgraded to an automatically updated version.
 3. Windows has been upgraded to an automatically updated version.
+### 1.4.1
+1. CPU and GPU performance optimization.
