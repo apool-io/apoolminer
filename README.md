@@ -159,3 +159,5 @@ The /gpu API will return all devices, including cpu.
 1. CPU and GPU performance optimization.
 ### 1.4.2
 1. GPU performance optimization.
+### 1.4.3
+1. GPU performance optimization.
