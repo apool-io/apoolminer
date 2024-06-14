@@ -164,4 +164,6 @@ The /gpu API will return all devices, including cpu.
 ### 1.5.0
 1. Qubic epoch 112.
 ### 1.5.1
-1. Performance / efficiency improvements (Both CPU and GPU, 5%-15%)
+1. Performance / efficiency improvements (Both CPU and GPU, 5%-15%).
+### 1.5.2
+1. Performance / efficiency improvements (Both CPU and GPU, 5%-15%).
