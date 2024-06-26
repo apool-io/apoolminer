@@ -171,3 +171,6 @@ The /gpu API will return all devices, including cpu.
 1. Qubic epoch 114.
 ### 1.6.1
 1. Fixed some bug.
+### 1.6.2
+1. Performance improvement in linux environment.
+2. Performance improvement for NVIDIA RTX20 Cards, about 5%.
