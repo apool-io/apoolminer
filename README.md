@@ -176,3 +176,5 @@ The /gpu API will return all devices, including cpu.
 2. Performance improvement for NVIDIA RTX20 Cards, about 5%.
 ### 1.6.3
 1. CPU mining with aleo support.
+### 1.6.4
+1. CPU performance optimization for aleo.
