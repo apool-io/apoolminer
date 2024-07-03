@@ -179,4 +179,4 @@ The /gpu API will return all devices, including cpu.
 ### 1.6.4
 1. CPU performance optimization for aleo.
 ### 1.6.5
-1. GPU mining with aleo support.
+1. Aleo support GPU mining.
