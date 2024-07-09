@@ -188,3 +188,5 @@ The /gpu API will return all devices, including cpu.
 1. CPU performance improved by 30% for Aleo.
 ### 1.6.9
 1. CPU and GPU performance improved by 10%-15% for Aleo.
+### 1.6.10
+1. CPU performance improved by 30% for Aleo.
