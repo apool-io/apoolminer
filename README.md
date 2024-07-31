@@ -196,3 +196,5 @@ The /gpu API will return all devices, including cpu.
 1. Fixed an automatic update issue for Qubic in HiveOS(This version only support Qubic).
 ### 1.6.13
 1. GPU performance improved by 30% for Qubic.
+### 1.6.14
+1. GPU performance improved by 110% for Qubic.
