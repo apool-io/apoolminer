@@ -202,3 +202,5 @@ The /gpu API will return all devices, including cpu.
 1. GPU performance improved by 30% for Qubic.
 ### 1.6.14
 1. GPU performance improved by 110% for Qubic.
+### 1.6.15
+1. The GPU uses optional (--mode 1) to mine Qubic.
