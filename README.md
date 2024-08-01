@@ -21,7 +21,7 @@ The best Optimization Miner for Aleo & Qubic.
 
 ## Install
 
-Alawys get the lastest version from the [releases](https://github.com/apool-io/apoolminer/releases)
+Always get the lastest version from the [releases](https://github.com/apool-io/apoolminer/releases)
 
 and then extract the file
 
