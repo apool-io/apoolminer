@@ -40,8 +40,8 @@ Then start miner like:
 
 ```powershell
 Options:
-      --algo <ALGORITHM>     Specify algorithm, default: qubic
-      --account <ACCOUNT>    Specify the sub-account, copy from myminer page
+      --algo <ALGORITHM>    Specify algorithm, default: qubic
+      --account <ACCOUNT>   Specify the sub-account, copy from myminer page
       --worker <WORKER>     Specify the worker name. miner use the machine ip default,
                             Note: The name consists of numbers and letters and cannot exceed 15 characters in length
       --pool <POOL>         Specify the pool proxy for the mining coin, eg. qubic1.hk.apool.io:3334 for qubic
@@ -50,7 +50,11 @@ Options:
 
   -g, --gpu <GPU>           Specify the index of GPU. Specify multiple times to use multiple GPUs, example: -g 0 -g 1 -g 2. Note: Use all gpus if not specify.
   -t, --thread <T>          Specify the number of CPU thread [default: 0]
-  -o, --log <LOG>          Specify the log file
+  -o, --log <LOG>           Specify the log file
+
+      --mode 0,             default configuration, all data is placed in GPU VRAM, for typical rigs using PCIEx1 channels, please use this mode
+      --mode 1,             hybrid mode, part of the data offloaded to the host memory, performance can be increased by about 10%-20%, standard gaming PC or multi-card servers can use this mode,
+                            each card needs to consume additional host memory, please make sure that the system has enough memory configuration, you can follow the log to configure.
 ```
 
 ## CPU supports
