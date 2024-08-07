@@ -205,3 +205,5 @@ The /gpu API will return all devices, including cpu.
 ### 1.6.15
 1. The GPU support hybrid mode (--mode 1) to mine Qubic.
 2. Performance increased by about 10%-20% in mode 1, increased by about 5% in mode 0.
+### 1.7.0
+1. Qubic epoch 121.
