@@ -207,3 +207,5 @@ The /gpu API will return all devices, including cpu.
 2. Performance increased by about 10%-20% in mode 1, increased by about 5% in mode 0.
 ### 1.7.0
 1. Qubic epoch 121.
+### 1.7.1
+1. GPU performance improved by 10% for Qubic.
