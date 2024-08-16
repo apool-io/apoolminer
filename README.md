@@ -213,3 +213,5 @@ The /gpu API will return all devices, including cpu.
 1. CPU performance improved by 50% for Qubic.
 ### 1.8.0
 1. Qubic epoch 122.
+### 1.8.1
+1. Support ore solo cpu mining.
