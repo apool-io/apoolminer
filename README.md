@@ -215,3 +215,5 @@ The /gpu API will return all devices, including cpu.
 1. Qubic epoch 122.
 ### 1.8.1
 1. Support ore solo cpu mining.
+### 1.9.0
+1. Qubic epoch 123.
