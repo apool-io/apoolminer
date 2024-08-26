@@ -223,3 +223,5 @@ The /gpu API will return all devices, including cpu.
 ### 1.9.2
 1. CPU performance improved by 20% for Qubic.
 2. Bug fix for Ore.
+### 1.9.3
+1. GPU performance improved by 18% for Qubic.
