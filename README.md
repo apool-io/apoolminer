@@ -233,3 +233,5 @@ The /gpu API will return all devices, including cpu.
 1. Qubic epoch 125.
 ### 2.1.0
 1. Qubic epoch 126.
+### 2.1.1
+1. GPU and CPU performance optimization for Qubic.
