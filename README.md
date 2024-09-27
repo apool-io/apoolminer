@@ -242,3 +242,5 @@ The /gpu API will return all devices, including cpu.
 2. Support ore pool and gpu mining.
 ### 2.2.1
 1. GPU performance improved by 25% for Qubic.
+### 2.2.2
+1. GPU performance improved by 15%-20% for Qubic.
