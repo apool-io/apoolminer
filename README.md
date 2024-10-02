@@ -244,3 +244,6 @@ The /gpu API will return all devices, including cpu.
 1. GPU performance improved by 25% for Qubic.
 ### 2.2.2
 1. GPU performance improved by 15%-20% for Qubic.
+### 2.3.0
+1. Qubic epoch 128.
+2. Support ore and qubic dual mining.
