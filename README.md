@@ -252,4 +252,5 @@ The /gpu API will return all devices, including cpu.
 2. Fix bug.
 ### 2.4.0
 1. Qubic epoch 130.
-2. GPU performance optimization for ORE.
+2. GPU performance improved by 20% for ORE.
+3. Fix bug about dual mining.
