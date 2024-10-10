@@ -256,3 +256,5 @@ The /gpu API will return all devices, including cpu.
 3. Fix bug about dual mining.
 ### 2.4.1
 1. Fix bug.
+### 2.4.2
+1. GPU performance improved by 15%-20% for Qubic.
