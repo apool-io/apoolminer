@@ -266,3 +266,6 @@ The /gpu API will return all devices, including cpu.
 1. Fixed some gpu failure issues.
 ### 2.6.0
 1. Qubic epoch 132.
+### 2.6.1
+1. 15% performance increase for RTX30s and RTX40s, 10% performance increase for RTX20s
+2. Reduced GPU resource usage, can support true Dual mining with zkminer without affecting Qubic performance, unlike Idle mining, you can get 60% extra Aleo rewards in Qubic cycle.
