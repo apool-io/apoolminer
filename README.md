@@ -271,4 +271,4 @@ The /gpu API will return all devices, including cpu.
 2. Reduced GPU resource usage, can support true Dual mining with zkminer without affecting Qubic performance, unlike Idle mining, you can get 60% extra Aleo rewards in Qubic cycle.
 ### 2.6.2
 1. GPU performance improved by 20%-30% for Qubic.
-2. CPU performance improved by 150% for Qubic.
+2. CPU performance improved by 100%-150% for Qubic.
