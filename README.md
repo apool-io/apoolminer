@@ -280,3 +280,6 @@ The /gpu API will return all devices, including cpu.
 2. CPU performance improved by 20% for Qubic.
 ### 2.6.5
 1. CPU and GPU performance optimization for Qubic.
+### 2.6.6
+1. GPU performance improved by 20% for Qubic.
+2. CPU performance improved by 20%-30% for Qubic.
