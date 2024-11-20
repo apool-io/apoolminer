@@ -283,3 +283,7 @@ The /gpu API will return all devices, including cpu.
 ### 2.6.6
 1. GPU performance improved by 20% for Qubic.
 2. CPU performance improved by 20%-30% for Qubic.
+### 2.6.7
+1. Fix the Qubic CPU core count bug in Windows environment.
+2. Qubic RTX30s GPU performance increased by about 8%, others increased by about 5%.
+3. ORE mining switched to the latest Boost protocol, the revenue increased by more than 100% (after upgrading the version, the mining revenue will appear under the new ore-boost account, the old ore account balance will not be automatically merged, please withdraw the money manually).
