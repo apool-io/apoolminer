@@ -290,4 +290,4 @@ The /gpu API will return all devices, including cpu.
 ### 2.7.0
 1. Qubic epoch 138.
 ### 2.7.1
-1. Emergency bug fixed, effectiveness increased to 100%.
+1. Emergency bug fixed.
