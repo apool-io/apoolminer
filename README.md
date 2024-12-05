@@ -291,3 +291,5 @@ The /gpu API will return all devices, including cpu.
 1. Qubic epoch 138.
 ### 2.7.1
 1. Emergency bug fixed.
+### 2.7.2
+1. Fixed the bug in the Windows version that caused low hashrate on 4090 GPUs.
