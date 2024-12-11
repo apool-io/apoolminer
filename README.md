@@ -295,3 +295,5 @@ The /gpu API will return all devices, including cpu.
 1. Fixed the bug in the Windows version that caused low hashrate on 4090 GPUs.
 ### 2.7.3
 1. CPU and GPU performance optimization for Qubic.
+### 2.7.4
+1. GPU performance optimization for Qubic.
