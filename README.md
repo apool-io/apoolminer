@@ -297,3 +297,5 @@ The /gpu API will return all devices, including cpu.
 1. CPU and GPU performance optimization for Qubic.
 ### 2.7.4
 1. GPU performance optimization for Qubic.
+### 2.7.5
+1. GPU performance optimization for Qubic.
