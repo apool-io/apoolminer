@@ -299,3 +299,5 @@ The /gpu API will return all devices, including cpu.
 1. GPU performance optimization for Qubic.
 ### 2.7.5
 1. GPU performance improved by 100%.
+### 2.7.6
+1. ORE fixes bugs, GPU performance increased by 20%, ORE users please replace the new version as soon as possible, the old version will stop support on December 25th!
