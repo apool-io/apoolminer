@@ -302,4 +302,5 @@ The /gpu API will return all devices, including cpu.
 ### 2.7.6
 1. ORE fixes bugs, GPU performance increased by 20%, ORE users please replace the new version as soon as possible, the old version will stop support on December 25th!
 ### 2.7.6
-1. GPU performance improved by 10%-20%.
+1. Fixed the rejection rate issue in the ORE Windows version.
+2. GPU performance improved by 10%-20%.
