@@ -305,4 +305,4 @@ The /gpu API will return all devices, including cpu.
 1. Fixed the rejection rate issue in the ORE Windows version.
 2. GPU performance improved by 10%-20%.
 ### 2.7.9
-1. GPU and CPU performance improved by 800%-1000% for Qubic.
+1. GPU and CPU performance improved by 600%-800% for Qubic.
