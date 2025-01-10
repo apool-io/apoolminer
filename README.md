@@ -311,5 +311,5 @@ The /gpu API will return all devices, including cpu.
 ### 2.8.0
 1. Qubic epoch 143.
 ### 2.8.1
-1. 40% increase in GPU performance, the new version requires more CPU assistance, it may cause higher LA in Rigs with only two cpu cores.
-2. 50% increase in CPU performance, and the performance is more stable, it is recommended to upgrade.
+1. Qubic GPU performance improved by 40%.
+2. Qubic CPU performance improved by 50%.
