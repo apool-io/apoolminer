@@ -317,3 +317,4 @@ The /gpu API will return all devices, including cpu.
 1. GPU and CPU performance improved by 30%-50% for Qubic.
 ### 2.8.4
 1. Fix some bugs in the Windows version.
+2. Optimized the logic for currency switching during idle time.
