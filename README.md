@@ -318,3 +318,6 @@ The /gpu API will return all devices, including cpu.
 ### 2.8.4
 1. Fix some bugs in the Windows version.
 2. Optimized the logic for currency switching during idle time.
+### 2.8.6
+1. Qubic supports the NVIDIA 50 series GPUs.
+2. Qubic GPU performance improved by 8%.
