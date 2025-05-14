@@ -321,3 +321,6 @@ The /gpu API will return all devices, including cpu.
 ### 2.8.6
 1. Qubic supports the NVIDIA 50 series GPUs.
 2. Qubic GPU performance improved by 8%.
+### 2.9.0
+1. Epoch 161.
+2. Miner adds support for QXMR.
