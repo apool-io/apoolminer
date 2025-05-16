@@ -324,3 +324,7 @@ The /gpu API will return all devices, including cpu.
 ### 2.9.0
 1. Epoch 161.
 2. Miner adds support for QXMR.
+### 2.9.1
+1. Fixed an issue where some CPUs experienced hashrate drops.
+2. Added option to set the number of threads for XMR mining.
+3. Added a toggle to enable or disable CPU mining for XMR.
