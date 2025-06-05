@@ -329,6 +329,6 @@ The /gpu API will return all devices, including cpu.
 2. Added option to set the number of threads for XMR mining.
 3. Added a toggle to enable or disable CPU mining for XMR.
 ### 2.9.2
-1. Added TLS/SSL encrypted connection support (Qubic, XMR) (qubic：qubic1.hk.apool.io:2334、qubic2.hk.apool.io:2334）（xmr：xmr.hk.apool.io:2334).
+1. Added TLS/SSL encrypted connection support(Qubic, XMR)(qubic: qubic1.hk.apool.io:2334、qubic2.hk.apool.io:2334)(xmr: xmr.hk.apool.io:2334).
 2. Fixed MSR-related issues on Windows.
 3. Resolved GPU mining issues on XMR for machines with 4GB RAM.
