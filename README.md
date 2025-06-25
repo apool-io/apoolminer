@@ -335,3 +335,7 @@ The /gpu API will return all devices, including cpu.
 ### 2.9.3
 1. Added automatic 1GB huge page configuration parameter (Linux only), disabled by default.
 2. Bug fixes: includes improvements to hashrate stability and nonce space allocation strategy.
+### 3.0.0
+ 1. Epoch 167.
+ 2. New parameter --no-cpu-affinity:
+    If CPU usage is low during the QXMR phase, you can use this parameter along with manual thread configuration to optimize performance.
