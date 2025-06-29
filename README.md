@@ -339,3 +339,5 @@ The /gpu API will return all devices, including cpu.
  1. Epoch 167.
  2. New parameter --no-cpu-affinity:
     If CPU usage is low during the QXMR phase, you can use this parameter along with manual thread configuration to optimize performance.
+### 3.0.2
+1. GPU performance optimization for Qubic.
