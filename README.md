@@ -341,3 +341,6 @@ The /gpu API will return all devices, including cpu.
     If CPU usage is low during the QXMR phase, you can use this parameter along with manual thread configuration to optimize performance.
 ### 3.0.2
 1. GPU performance optimization for Qubic.
+### 3.0.3
+1. AVX512 CPU Qubic hashrate optimization (improved by 300%–500%).
+2. Added support for sm_90 GPUs (H100 support).
