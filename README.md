@@ -345,4 +345,4 @@ The /gpu API will return all devices, including cpu.
 1. AVX512 CPU Qubic hashrate optimization (improved by 300%–500%).
 2. Added support for sm_90 GPUs (H100 support).
 ### 3.0.4
-1. Qubic GPU performance improved by 20%–60%.
+1. Qubic GPU performance improved by 20%–80%.
