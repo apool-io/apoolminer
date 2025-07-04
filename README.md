@@ -347,3 +347,6 @@ The /gpu API will return all devices, including cpu.
 ### 3.0.4
 1. Qubic GPU Performance Improvement: NVIDIA RTX 20 series GPUs: approximately 20% performance increase.
 2. Other GPU series: performance increased by 60%–80%.
+### 3.0.5
+1. Applicable to NVIDIA 20 and 30 series GPUs, with a performance increase of approximately 10%–15%.
+2. Qubic CPU hashrate improved by approximately 20%–30%.
