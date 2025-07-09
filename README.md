@@ -352,3 +352,5 @@ The /gpu API will return all devices, including cpu.
    Applicable to NVIDIA 20 and 30 series GPUs, with a performance increase of approximately 10%–15%.
 2. CPU Performance Boost:</br>
    Qubic CPU hashrate improved by approximately 20%–30%.
+### 3.1.0
+1. Epoch 168.
