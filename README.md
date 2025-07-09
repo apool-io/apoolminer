@@ -353,4 +353,4 @@ The /gpu API will return all devices, including cpu.
 2. CPU Performance Boost:</br>
    Qubic CPU hashrate improved by approximately 20%–30%.
 ### 3.1.0
-1. Epoch 168.
+1. Epoch 169.
