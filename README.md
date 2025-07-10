@@ -354,3 +354,6 @@ The /gpu API will return all devices, including cpu.
    Qubic CPU hashrate improved by approximately 20%–30%.
 ### 3.1.0
 1. Epoch 169.
+### 3.1.1
+ 1. Qubic algorithm GPU performance improved: 60%–80% boost for NVIDIA 40 and 50 series, 20%–50% boost for 20 and 30 series GPUs.
+ 2. Fixed potential hashrate instability in XMR.
