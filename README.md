@@ -357,3 +357,7 @@ The /gpu API will return all devices, including cpu.
 ### 3.1.1
  1. Qubic algorithm GPU performance improved: 60%–80% boost for NVIDIA 40 and 50 series, 20%–50% boost for 20 and 30 series GPUs.
  2. Fixed potential hashrate instability in XMR.
+### 3.2.0
+1. Epoch 171.
+2. XMR Upgraded to 64-bit Nonce.
+3. Added support for NVIDIA 50 Series GPUs in Quai.
