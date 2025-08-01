@@ -361,3 +361,6 @@ The /gpu API will return all devices, including cpu.
 1. Epoch 171.
 2. XMR Upgraded to 64-bit Nonce.
 3. Added support for NVIDIA 50 Series GPUs in Quai.
+### 3.2.1
+1. NVIDIA 40 Series: Performance improved by 10%.
+2. NVIDIA 50 Series: Performance improved by 25%.
