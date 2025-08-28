@@ -365,7 +365,7 @@ The /gpu API will return all devices, including cpu.
 1. NVIDIA 40 Series: Performance improved by 10%.
 2. NVIDIA 50 Series: Performance improved by 25%.
 ### 3.2.2
-1. Qubic algorithm CPU performance improved by 30%
+1. Qubic algorithm CPU performance improved by 30%.
 2. Added WebSocket proxies:
 * qubic.asia.apool.io:4334
 * xmr.asia.apool.io:4334
