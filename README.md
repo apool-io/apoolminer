@@ -367,5 +367,5 @@ The /gpu API will return all devices, including cpu.
 ### 3.2.2
 1. Qubic algorithm CPU performance improved by 30%
 2. Added WebSocket proxies:
-* qubic.asia.apool.io:4334.
-* xmr.asia.apool.io:4334.
+* qubic.asia.apool.io:4334
+* xmr.asia.apool.io:4334
