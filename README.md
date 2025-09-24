@@ -371,3 +371,5 @@ The /gpu API will return all devices, including cpu.
 * xmr.asia.apool.io:4334
 ### 3.2.3
 1. Fixed an issue where the miner could not automatically reconnect after disconnection.
+### 3.3.0
+1. Epoch 180.
