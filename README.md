@@ -373,3 +373,5 @@ The /gpu API will return all devices, including cpu.
 1. Fixed an issue where the miner could not automatically reconnect after disconnection.
 ### 3.3.0
 1. Epoch 180.
+### 3.4.0
+1. Epoch 197.
