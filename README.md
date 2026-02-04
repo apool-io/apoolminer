@@ -375,3 +375,5 @@ The /gpu API will return all devices, including cpu.
 1. Epoch 180.
 ### 3.4.0
 1. Epoch 197.
+### 3.4.1
+1. Switched to the Addition algorithm, resulting in a significant performance improvement.
