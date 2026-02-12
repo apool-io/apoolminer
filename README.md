@@ -379,3 +379,5 @@ The /gpu API will return all devices, including cpu.
 1. Switched to the Addition algorithm, resulting in a significant performance improvement.
 ### 3.4.2
 1. CPU and GPU performance improvements.
+### 3.4.3
+1. CPU and GPU performance improvements.
