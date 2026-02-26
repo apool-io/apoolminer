@@ -382,4 +382,7 @@ The /gpu API will return all devices, including cpu.
 ### 3.4.3
 1. CPU and GPU performance improved by 50%-80%.
 ### 3.4.4
-1. CPU performance improved by 80%~100%.
+1. CPU performance improved by 80%-100%.
+### 3.4.5
+1. CPU performance improved by 100%.
+2. GPU performance improved by 20%-30%.
