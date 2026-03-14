@@ -395,3 +395,5 @@ The /gpu API will return all devices, including cpu.
 1. CPU performance improved by 20%-30%.
 ### 3.5.0
 1. Qubic epoch 204.
+### 3.5.1
+1. CPU performance improved by 20%-30%.
