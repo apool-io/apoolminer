@@ -397,7 +397,7 @@ The /gpu API will return all devices, including cpu.
 1. Qubic epoch 204.
 ### 3.5.1
 1. CPU performance improved by 20%-30%.
-### 3.5.
+### 3.5.2
 1. GPU performance improved by 10%.
 2. CPU performance improved by 10%-30%.
 3. Resolved an issue causing abnormally low hashrate on dual-CPU systems running Windows.
