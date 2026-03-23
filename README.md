@@ -403,3 +403,5 @@ The /gpu API will return all devices, including cpu.
 3. Resolved an issue causing abnormally low hashrate on dual-CPU systems running Windows.
 ### 3.5.3
 1. CPU performance improved by 200%-300%.
+### 3.5.4
+1. GPU performance improved by 200%-300%.
