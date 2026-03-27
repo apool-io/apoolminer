@@ -408,3 +408,7 @@ The /gpu API will return all devices, including cpu.
 ### 3.5.5
 1. GPU performance increased by up to 20%.
 2. Resolved startup issues affecting miners on some Windows environments.
+### 3.5.7
+1. Optimized performance and memory usage on 4GB RAM systems.
+2. CPU performance increased by up to  35%.
+3. GPU performance increased by up to  40%–60%.
