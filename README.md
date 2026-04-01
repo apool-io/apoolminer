@@ -412,3 +412,5 @@ The /gpu API will return all devices, including cpu.
 1. Optimized performance and memory usage on 4GB RAM systems.
 2. CPU performance increased by up to  35%.
 3. GPU performance increased by up to  40%–60%.
+### 3.6.0
+1. Qubic epoch 207.
