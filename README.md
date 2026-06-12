@@ -419,3 +419,7 @@ The /gpu API will return all devices, including cpu.
 2. CPU performance increased by up to 60%-100%.
 ### 3.7.0
 1. Qubic epoch 215.
+### 3.7.1
+1. Fixed a bug preventing some Windows cloud machines from running.
+2. Fixed a bug causing zero compute.
+3. Performance improvements.
